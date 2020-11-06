@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-cache/project-cache.iml" filepath="$PROJECT_DIR$/project-cache/project-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-common/project-common.iml" filepath="$PROJECT_DIR$/project-common/project-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-dao/project-dao.iml" filepath="$PROJECT_DIR$/project-dao/project-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-service/project-service.iml" filepath="$PROJECT_DIR$/project-service/project-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-start/project-start.iml" filepath="$PROJECT_DIR$/project-start/project-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-test/project-test.iml" filepath="$PROJECT_DIR$/project-test/project-test.iml" />
+    </modules>
+  </component>
+</project>

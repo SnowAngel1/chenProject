@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="project-service" />
+        <module name="project-common" />
+        <module name="project-dao" />
+        <module name="project-test" />
+        <module name="project-start" />
+        <module name="project-cache" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="project" target="1.8" />
+      <module name="project-cache" target="1.8" />
+      <module name="project-common" target="1.8" />
+      <module name="project-dao" target="1.8" />
+      <module name="project-service" target="1.8" />
+      <module name="project-start" target="1.8" />
+      <module name="project-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="project" options="-parameters" />
+      <module name="project-cache" options="-parameters" />
+      <module name="project-common" options="-parameters" />
+      <module name="project-dao" options="-parameters" />
+      <module name="project-service" options="-parameters" />
+      <module name="project-start" options="-parameters" />
+      <module name="project-test" options="-parameters" />
+    </option>
+  </component>
+</project>
