@@ -1,4 +1,4 @@
-package com.eigpay.bpass.finengine.exception;
+package cn.project.commonenum;
 
 /**
  * @author cyp
