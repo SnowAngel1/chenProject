@@ -16,12 +16,14 @@ public class LockServiceImpl implements LockService {
     @Autowired
     private StringRedisTemplate redisTemplate;
 
+    @Override
     public boolean getLock(String lockId, long millisecond) {
         Boolean success = redisTemplate.opsForValue().setIfAbsent(lockId, "lock",
                 millisecond, TimeUnit.MILLISECONDS);
         return success != null && success;
     }
 
+    @Override
     public void releaseLock(String lockId) {
         redisTemplate.delete(lockId);
     }
